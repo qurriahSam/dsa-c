@@ -2,7 +2,7 @@
 
 - [x] Inserting a node at the beginning of list
 - [x] Insert a node at the end of list
-- [] Inserting a node at nth position
+- [x] Inserting a node at nth position
 - [] Delete a node at nth position
 - [] Reverse a linked list
 - [] Print linked list using recursion
