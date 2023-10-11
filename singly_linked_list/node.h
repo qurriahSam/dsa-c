@@ -24,6 +24,9 @@ struct Node
 extern struct Node *head;
 
 void unshift(int x);
+void insert(int data, int pos);
+void push(int data);
+
 void print_list();
 
 #endif
