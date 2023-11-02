@@ -26,6 +26,8 @@ extern struct Node *head;
 void unshift(int x);
 void insert(int data, int pos);
 void push(int data);
+void Delete(int position);
+void Reverse_list();
 
 void print_list();
 
