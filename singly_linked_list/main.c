@@ -4,20 +4,18 @@ struct Node *head = NULL;
 
 int main()
 {
-  int count, num;
+  int pos;
 
-  printf("How many numbers: ");
-  scanf("%d", &count);
+  push(6);
+  push(3);
+  push(5);
+  push(2);
+  push(4);
+  push(5);
 
-  while (count != 0)
-  {
-    printf("Enter Number: ");
-    scanf("%d", &num);
-    putchar('\n');
-    unshift(num);
-    count--;
-  }
+  print_list();
 
+  Reverse_list();
   print_list();
 
   return 0;
